@@ -1,0 +1,28 @@
+/* This class styles the outer container of your movie app */
+.movie-selector {
+  max-width: 350px;    /* Limits the width so it doesn't stretch too wide */
+  margin: auto;   /* Adds space around it, and centers it horizontally */
+  padding: auto;       /* Adds space inside the box */
+  border: 2px solid #6e4949;  /* Adds a light gray border around the box */
+  border-radius: 8px;        /* Rounds the corners slightly */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Sets a clean, readable font */
+}
+
+/* Styles for the dropdown and button */
+select, button {
+  margin: 0.5rem 0;  /* Adds space above and below each element */
+  padding: 0.2rem;   /* Adds space inside the dropdown and button */
+  font-size: 1rem;   /* Makes text slightly larger for better readability */
+  width: 100%;       /* Makes both elements stretch to fill the container width */
+}
+
+/* Styles for the list of movies */
+ul {
+  list-style: none;  /* Removes default bullet points */
+  padding-left: 1rem; /* Adds space to the left of the list items */
+}
+
+/* Styles each movie title in the list */
+li {
+  margin-bottom: 0.5rem;   /* Adds space between each list item */
+}
